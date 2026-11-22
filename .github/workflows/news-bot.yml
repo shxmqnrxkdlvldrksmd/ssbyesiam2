@@ -25,7 +25,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: 기사 수집·발송
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.9123604270:AAHt_9YdFXeplBd5_kaZ69-iZCmIs3A4gXk }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python bot.py
       - name: 발송 기록 저장
